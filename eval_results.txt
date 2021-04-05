@@ -1,0 +1,43 @@
+====================================================================
+Model: models/mb2-ssd-lite-width_mult=1.0-best_model_lr=1e-2.pth
+
+base_net_lr = 1e-2
+lr=extra_layers_lr = 1e-3
+
+Average Precision Per-class:
+Handgun: 0.7640400078059925
+Shotgun: 0.6985319949386728
+
+Average Precision Across All Classes:0.7312860013723326
+
+Evaluated on validation folder --> 37 images
+====================================================================
+
+====================================================================
+Model: models/mb2-ssd-lite-width_mult=1.0-best_model_lr=1e-3.pth
+
+base_net_lr = 1e-3
+lr=extra_layers_lr = 1e-4
+
+Average Precision Per-class:
+Handgun: 0.7245934959349595
+Shotgun: 0.7707346638660346
+
+Average Precision Across All Classes:0.747664079900497
+
+Evaluated on validation folder --> 37 images
+====================================================================
+
+====================================================================
+Model: models/mb2-ssd-lite-width_mult=1.0-best_model_scratch.pth
+
+lr = 1e-3
+
+Average Precision Per-class:
+Handgun: 0.6448691838891476
+Shotgun: 0.28639762443069783
+
+Average Precision Across All Classes:0.4656334041599227
+
+Evaluated on validation folder --> 37 images
+====================================================================
